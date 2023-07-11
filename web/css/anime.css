@@ -1,0 +1,50 @@
+#icon_you {
+    font-size: 40px;
+  }
+
+  #myModal {
+    margin-top: 50px;
+  }
+
+  .modal-dialog iframe {
+    margin: 0 auto;
+    display: block;
+  }
+
+  body {
+    color: black !important;
+  }
+
+  .rec-list {
+    display: flex;
+    overflow: auto hidden;
+    margin-bottom: 8px;
+  }
+
+  .rec-list>a {
+    display: block;
+  }
+
+  .rec-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .rec-container>div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .rec-botones {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  @media (min-width: 700px) {
+    .rec-container {
+      flex-direction: row;
+    }
+  }

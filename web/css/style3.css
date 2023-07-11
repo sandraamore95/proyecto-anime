@@ -1,0 +1,76 @@
+.sidebar {
+    background-color: black;
+
+    /* Occupies 100% height of the page */
+    height: 100%;
+
+    /* Specifies the width of sidebar */
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-right: 60px;
+
+    /* Transition effect of sidebar */
+    transition: 0.5s;
+}
+
+.sidebar h2,
+li {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+    /* Transition effect of h2 and li */
+    transition: 0.3s;
+}
+
+.sidebar li:hover {
+
+    /* Sidebar items change color 
+    when hovered over */
+    color: green;
+}
+
+.content {
+    background-color: white;
+    position: absolute;
+    top: 0;
+
+    /* The left margin when 
+    sidebar is visible */
+    left: 200px;
+    right: 0;
+    bottom: 0;
+
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Toggling of sidebar */
+input:checked~.content {
+    left: 0;
+}
+
+input:checked~label {
+    left: 0;
+}
+
+/* Styling of the button */
+label {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: black;
+    color: white;
+    -moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}

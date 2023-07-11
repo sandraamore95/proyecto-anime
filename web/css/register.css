@@ -1,0 +1,30 @@
+.login {
+    min-height: 80vh;
+  }
+
+  .bg-image {
+    background-image: url('../images/register.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .login-heading {
+    font-weight: 300;
+  }
+
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    background-color: grey;
+    color: white;
+  }
+
+  .btn-login :hover {
+    color: white;
+
+  }
+
+  a {
+    color: white;
+  }

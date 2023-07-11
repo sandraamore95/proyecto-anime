@@ -1,0 +1,12 @@
+.post-description {
+    margin: 0 8px;
+}
+.float-left.image {
+    margin-right: 8px;
+}
+.dibujo-coments {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}

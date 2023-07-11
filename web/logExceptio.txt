@@ -1,0 +1,2 @@
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'abastosmanagement.usuarios' doesn't exist0.42620300 1581889752
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'abastosmanagement.usuarios' doesn't exist0.76080300 1581890155
